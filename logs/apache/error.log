@@ -1,0 +1,27 @@
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Fri Apr 08 16:40:59.285242 2022] [mpm_event:notice] [pid 18137:tid 139970027924800] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Fri Apr 08 16:40:59.285403 2022] [core:notice] [pid 18137:tid 139970027924800] AH00094: Command line: '/home/cyril/.config/Local/lightning-services/apache-2.4.43+6/bin/linux/bin/httpd -D FOREGROUND -f /home/cyril/.config/Local/run/6_51g0115/conf/apache/apache2.conf'
+[Fri Apr 08 17:09:24.999092 2022] [mpm_event:notice] [pid 18137:tid 139970027924800] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Tue Apr 12 14:53:38.450165 2022] [mpm_event:notice] [pid 6853:tid 139913653460288] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Tue Apr 12 14:53:38.450324 2022] [core:notice] [pid 6853:tid 139913653460288] AH00094: Command line: '/home/cyril/.config/Local/lightning-services/apache-2.4.43+6/bin/linux/bin/httpd -D FOREGROUND -f /home/cyril/.config/Local/run/6_51g0115/conf/apache/apache2.conf'
+[Tue Apr 12 15:53:09.798005 2022] [mpm_event:notice] [pid 6853:tid 139913653460288] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Tue Apr 12 15:53:12.022299 2022] [mpm_event:notice] [pid 11068:tid 140671178263872] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Tue Apr 12 15:53:12.022416 2022] [core:notice] [pid 11068:tid 140671178263872] AH00094: Command line: '/home/cyril/.config/Local/lightning-services/apache-2.4.43+6/bin/linux/bin/httpd -D FOREGROUND -f /home/cyril/.config/Local/run/6_51g0115/conf/apache/apache2.conf'
+[Tue Apr 12 15:53:57.679763 2022] [mpm_event:notice] [pid 11068:tid 140671178263872] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Tue Apr 12 15:54:26.164429 2022] [mpm_event:notice] [pid 11408:tid 140378512072000] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Tue Apr 12 15:54:26.164618 2022] [core:notice] [pid 11408:tid 140378512072000] AH00094: Command line: '/home/cyril/.config/Local/lightning-services/apache-2.4.43+6/bin/linux/bin/httpd -D FOREGROUND -f /home/cyril/.config/Local/run/6_51g0115/conf/apache/apache2.conf'
+[Tue Apr 12 16:36:47.009498 2022] [mpm_event:notice] [pid 11408:tid 140378512072000] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Tue Apr 12 16:36:59.329892 2022] [mpm_event:notice] [pid 13357:tid 140161435942208] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Tue Apr 12 16:36:59.330030 2022] [core:notice] [pid 13357:tid 140161435942208] AH00094: Command line: '/home/cyril/.config/Local/lightning-services/apache-2.4.43+6/bin/linux/bin/httpd -D FOREGROUND -f /home/cyril/.config/Local/run/6_51g0115/conf/apache/apache2.conf'
+[Tue Apr 12 17:53:33.184151 2022] [mpm_event:notice] [pid 13357:tid 140161435942208] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Tue Apr 12 17:53:36.911191 2022] [mpm_event:notice] [pid 17027:tid 140027704331584] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Tue Apr 12 17:53:36.911325 2022] [core:notice] [pid 17027:tid 140027704331584] AH00094: Command line: '/home/cyril/.config/Local/lightning-services/apache-2.4.43+6/bin/linux/bin/httpd -D FOREGROUND -f /home/cyril/.config/Local/run/6_51g0115/conf/apache/apache2.conf'
+[Tue Apr 12 17:53:45.996799 2022] [mpm_event:notice] [pid 17027:tid 140027704331584] AH00491: caught SIGTERM, shutting down
+AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
+[Wed Apr 13 15:25:00.371210 2022] [mpm_event:notice] [pid 6740:tid 140253444930880] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
+[Wed Apr 13 15:25:00.371311 2022] [core:notice] [pid 6740:tid 140253444930880] AH00094: Command line: '/home/cyril/.config/Local/lightning-services/apache-2.4.43+6/bin/linux/bin/httpd -D FOREGROUND -f /home/cyril/.config/Local/run/6_51g0115/conf/apache/apache2.conf'

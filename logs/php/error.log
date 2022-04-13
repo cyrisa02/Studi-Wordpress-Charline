@@ -1,0 +1,810 @@
+[08-Apr-2022 13:30:51 UTC] PHP Warning:  Use of undefined constant SECURE_AUTH_KEY - assumed 'SECURE_AUTH_KEY' (this will throw an Error in a future version of PHP) in /home/cyril/Local Sites/studilaporte/app/public/wp-content/plugins/acf-frontend-form-element/includes/freemius/includes/class-freemius.php on line 4061
+[08-Apr-2022 13:30:51 UTC] PHP Stack trace:
+[08-Apr-2022 13:30:51 UTC] PHP   1. {main}() /home/cyril/Local Sites/studilaporte/app/public/wp-admin/plugins.php:0
+[08-Apr-2022 13:30:51 UTC] PHP   2. activate_plugin($plugin = 'acf-frontend-form-element/acf-frontend.php', $redirect = 'http://localhost:10013/wp-admin/plugins.php?error=true&plugin=acf-frontend-form-element%2Facf-frontend.php', $network_wide = FALSE, $silent = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-admin/plugins.php:58
+[08-Apr-2022 13:30:51 UTC] PHP   3. plugin_sandbox_scrape($plugin = 'acf-frontend-form-element/acf-frontend.php') /home/cyril/Local Sites/studilaporte/app/public/wp-admin/includes/plugin.php:659
+[08-Apr-2022 13:30:51 UTC] PHP   4. include_once() /home/cyril/Local Sites/studilaporte/app/public/wp-admin/includes/plugin.php:2288
+[08-Apr-2022 13:30:51 UTC] PHP   5. fea_instance() /home/cyril/Local Sites/studilaporte/app/public/wp-content/plugins/acf-frontend-form-element/acf-frontend.php:71
+[08-Apr-2022 13:30:51 UTC] PHP   6. fs_dynamic_init($module = ['id' => '5212', 'slug' => 'acf-frontend-form-element', 'premium_slug' => 'acf-frontend-form-element-pro', 'type' => 'plugin', 'public_key' => 'pk_771aff8259bcf0305b376eceb7637', 'is_premium' => FALSE, 'premium_suffix' => '', 'has_addons' => FALSE, 'has_paid_plans' => TRUE, 'trial' => ['days' => 7, 'is_require_payment' => TRUE], 'has_affiliation' => 'selected', 'menu' => ['slug' => 'acf-frontend-settings', 'contact' => FALSE, 'support' => FALSE, 'affiliation' => FALSE], 'is_live' => TRUE]) /home/cyril/Local Sites/studilaporte/app/public/wp-content/plugins/acf-frontend-form-element/acf-frontend.php:42
+[08-Apr-2022 13:30:51 UTC] PHP   7. Freemius->dynamic_init($plugin_info = ['id' => '5212', 'slug' => 'acf-frontend-form-element', 'premium_slug' => 'acf-frontend-form-element-pro', 'type' => 'plugin', 'public_key' => 'pk_771aff8259bcf0305b376eceb7637', 'is_premium' => FALSE, 'premium_suffix' => '', 'has_addons' => FALSE, 'has_paid_plans' => TRUE, 'trial' => ['days' => 7, 'is_require_payment' => TRUE], 'has_affiliation' => 'selected', 'menu' => ['slug' => 'acf-frontend-settings', 'contact' => FALSE, 'support' => FALSE, 'affiliation' => FALSE], 'is_live' => TRUE]) /home/cyril/Local Sites/studilaporte/app/public/wp-content/plugins/acf-frontend-form-element/includes/freemius/start.php:522
+[08-Apr-2022 13:30:51 UTC] PHP   8. Freemius->has_api_connectivity($flush_if_no_connectivity = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-content/plugins/acf-frontend-form-element/includes/freemius/includes/class-freemius.php:4818
+[08-Apr-2022 13:30:51 UTC] PHP   9. Freemius->ping($blog_id = *uninitialized*, $is_gdpr_test = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-content/plugins/acf-frontend-form-element/includes/freemius/includes/class-freemius.php:3964
+[08-Apr-2022 13:30:51 UTC] PHP  10. Freemius->get_anonymous_id($blog_id = NULL) /home/cyril/Local Sites/studilaporte/app/public/wp-content/plugins/acf-frontend-form-element/includes/freemius/includes/class-freemius.php:3912
+[12-Apr-2022 14:36:10 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/class-wp-customize-nav-menus.php on line 523
+[12-Apr-2022 14:36:10 UTC] PHP Stack trace:
+[12-Apr-2022 14:36:10 UTC] PHP   1. {main}() /home/cyril/Local Sites/studilaporte/app/public/wp-admin/customize.php:0
+[12-Apr-2022 14:36:10 UTC] PHP   2. do_action($hook_name = 'customize_controls_enqueue_scripts') /home/cyril/Local Sites/studilaporte/app/public/wp-admin/customize.php:123
+[12-Apr-2022 14:36:10 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/plugin.php:474
+[12-Apr-2022 14:36:10 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/class-wp-hook.php:331
+[12-Apr-2022 14:36:10 UTC] PHP   5. WP_Customize_Nav_Menus->enqueue_scripts('') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/class-wp-hook.php:307
+[12-Apr-2022 14:36:10 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/class-wp-customize-nav-menus.php on line 1152
+[12-Apr-2022 14:36:10 UTC] PHP Stack trace:
+[12-Apr-2022 14:36:10 UTC] PHP   1. {main}() /home/cyril/Local Sites/studilaporte/app/public/wp-admin/customize.php:0
+[12-Apr-2022 14:36:10 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') /home/cyril/Local Sites/studilaporte/app/public/wp-admin/customize.php:292
+[12-Apr-2022 14:36:10 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/plugin.php:474
+[12-Apr-2022 14:36:10 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/class-wp-hook.php:331
+[12-Apr-2022 14:36:10 UTC] PHP   5. WP_Customize_Nav_Menus->available_items_template('') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/class-wp-hook.php:307
+[12-Apr-2022 14:36:59 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[12-Apr-2022 14:36:59 UTC] PHP Stack trace:
+[12-Apr-2022 14:36:59 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[12-Apr-2022 14:36:59 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[12-Apr-2022 14:36:59 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[12-Apr-2022 14:36:59 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[12-Apr-2022 14:36:59 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[12-Apr-2022 14:36:59 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[12-Apr-2022 14:36:59 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[12-Apr-2022 14:36:59 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[12-Apr-2022 14:36:59 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[12-Apr-2022 14:36:59 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[12-Apr-2022 14:36:59 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[12-Apr-2022 14:36:59 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[12-Apr-2022 14:36:59 UTC] PHP Stack trace:
+[12-Apr-2022 14:36:59 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[12-Apr-2022 14:36:59 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[12-Apr-2022 14:36:59 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[12-Apr-2022 14:36:59 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[12-Apr-2022 14:36:59 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[12-Apr-2022 14:36:59 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[12-Apr-2022 14:36:59 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[12-Apr-2022 14:36:59 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[12-Apr-2022 14:36:59 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[12-Apr-2022 14:36:59 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[12-Apr-2022 14:36:59 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[12-Apr-2022 14:36:59 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[12-Apr-2022 14:36:59 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[12-Apr-2022 14:36:59 UTC] PHP Stack trace:
+[12-Apr-2022 14:36:59 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[12-Apr-2022 14:36:59 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[12-Apr-2022 14:36:59 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[12-Apr-2022 14:36:59 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[12-Apr-2022 14:36:59 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[12-Apr-2022 14:36:59 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[12-Apr-2022 14:36:59 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[12-Apr-2022 14:36:59 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[12-Apr-2022 14:36:59 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[12-Apr-2022 14:36:59 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[12-Apr-2022 14:36:59 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[12-Apr-2022 14:36:59 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[12-Apr-2022 14:36:59 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[12-Apr-2022 14:36:59 UTC] PHP Stack trace:
+[12-Apr-2022 14:36:59 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[12-Apr-2022 14:36:59 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[12-Apr-2022 14:36:59 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[12-Apr-2022 14:36:59 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[12-Apr-2022 14:36:59 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[12-Apr-2022 14:36:59 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[12-Apr-2022 14:36:59 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[12-Apr-2022 14:36:59 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[12-Apr-2022 14:36:59 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[12-Apr-2022 14:36:59 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[12-Apr-2022 14:36:59 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[12-Apr-2022 14:36:59 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[12-Apr-2022 14:36:59 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[12-Apr-2022 14:36:59 UTC] PHP Stack trace:
+[12-Apr-2022 14:36:59 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[12-Apr-2022 14:36:59 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[12-Apr-2022 14:36:59 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[12-Apr-2022 14:36:59 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[12-Apr-2022 14:36:59 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[12-Apr-2022 14:36:59 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[12-Apr-2022 14:36:59 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[12-Apr-2022 14:36:59 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[12-Apr-2022 14:36:59 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[12-Apr-2022 14:36:59 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[12-Apr-2022 14:36:59 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[12-Apr-2022 14:36:59 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[12-Apr-2022 14:36:59 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[12-Apr-2022 14:36:59 UTC] PHP Stack trace:
+[12-Apr-2022 14:36:59 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[12-Apr-2022 14:36:59 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[12-Apr-2022 14:36:59 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[12-Apr-2022 14:36:59 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[12-Apr-2022 14:36:59 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[12-Apr-2022 14:36:59 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[12-Apr-2022 14:36:59 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[12-Apr-2022 14:36:59 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[12-Apr-2022 14:36:59 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[12-Apr-2022 14:36:59 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[12-Apr-2022 14:36:59 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[12-Apr-2022 14:36:59 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[12-Apr-2022 14:36:59 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[12-Apr-2022 14:36:59 UTC] PHP Stack trace:
+[12-Apr-2022 14:36:59 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[12-Apr-2022 14:36:59 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[12-Apr-2022 14:36:59 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[12-Apr-2022 14:36:59 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[12-Apr-2022 14:36:59 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[12-Apr-2022 14:36:59 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[12-Apr-2022 14:36:59 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[12-Apr-2022 14:36:59 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[12-Apr-2022 14:36:59 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[12-Apr-2022 14:36:59 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[12-Apr-2022 14:36:59 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[12-Apr-2022 14:36:59 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[12-Apr-2022 14:36:59 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[12-Apr-2022 14:36:59 UTC] PHP Stack trace:
+[12-Apr-2022 14:36:59 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[12-Apr-2022 14:36:59 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[12-Apr-2022 14:36:59 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[12-Apr-2022 14:36:59 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[12-Apr-2022 14:36:59 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[12-Apr-2022 14:36:59 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[12-Apr-2022 14:36:59 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[12-Apr-2022 14:36:59 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[12-Apr-2022 14:36:59 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[12-Apr-2022 14:36:59 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[12-Apr-2022 14:36:59 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[12-Apr-2022 14:36:59 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[12-Apr-2022 14:36:59 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[12-Apr-2022 14:36:59 UTC] PHP Stack trace:
+[12-Apr-2022 14:36:59 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[12-Apr-2022 14:36:59 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[12-Apr-2022 14:36:59 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[12-Apr-2022 14:36:59 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[12-Apr-2022 14:36:59 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[12-Apr-2022 14:36:59 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[12-Apr-2022 14:36:59 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[12-Apr-2022 14:36:59 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[12-Apr-2022 14:36:59 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[12-Apr-2022 14:36:59 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[12-Apr-2022 14:36:59 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[12-Apr-2022 14:36:59 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[12-Apr-2022 14:36:59 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[12-Apr-2022 14:36:59 UTC] PHP Stack trace:
+[12-Apr-2022 14:36:59 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[12-Apr-2022 14:36:59 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[12-Apr-2022 14:36:59 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[12-Apr-2022 14:36:59 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[12-Apr-2022 14:36:59 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[12-Apr-2022 14:36:59 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[12-Apr-2022 14:36:59 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[12-Apr-2022 14:36:59 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[12-Apr-2022 14:36:59 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[12-Apr-2022 14:36:59 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[12-Apr-2022 14:36:59 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[12-Apr-2022 14:36:59 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[12-Apr-2022 14:36:59 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[12-Apr-2022 14:36:59 UTC] PHP Stack trace:
+[12-Apr-2022 14:36:59 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[12-Apr-2022 14:36:59 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[12-Apr-2022 14:36:59 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[12-Apr-2022 14:36:59 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[12-Apr-2022 14:36:59 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[12-Apr-2022 14:36:59 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[12-Apr-2022 14:36:59 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[12-Apr-2022 14:36:59 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[12-Apr-2022 14:36:59 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[12-Apr-2022 14:36:59 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[12-Apr-2022 14:36:59 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[12-Apr-2022 14:36:59 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[12-Apr-2022 14:36:59 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[12-Apr-2022 14:36:59 UTC] PHP Stack trace:
+[12-Apr-2022 14:36:59 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[12-Apr-2022 14:36:59 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[12-Apr-2022 14:36:59 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[12-Apr-2022 14:36:59 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[12-Apr-2022 14:36:59 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[12-Apr-2022 14:36:59 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[12-Apr-2022 14:36:59 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[12-Apr-2022 14:36:59 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[12-Apr-2022 14:36:59 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[12-Apr-2022 14:36:59 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[12-Apr-2022 14:36:59 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[12-Apr-2022 14:36:59 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[12-Apr-2022 14:36:59 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[12-Apr-2022 14:36:59 UTC] PHP Stack trace:
+[12-Apr-2022 14:36:59 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[12-Apr-2022 14:36:59 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[12-Apr-2022 14:36:59 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[12-Apr-2022 14:36:59 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[12-Apr-2022 14:36:59 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[12-Apr-2022 14:36:59 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[12-Apr-2022 14:36:59 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[12-Apr-2022 14:36:59 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[12-Apr-2022 14:36:59 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[12-Apr-2022 14:36:59 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[12-Apr-2022 14:36:59 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[12-Apr-2022 14:36:59 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[12-Apr-2022 14:36:59 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = FALSE; public $client_info = 'mysqlnd 7.4.1'; public $client_version = 70401; public $connect_errno = 2002; public $connect_error = 'No such file or directory'; public $errno = 2002; public $error = 'No such file or directory'; public $error_list = FALSE; public $field_count = FALSE; public $host_info = FALSE; public $info = FALSE; public $insert_id = FALSE; public $server_info = FALSE; public $server_version = FALSE; public $sqlstate = FALSE; public $protocol_version = FALSE; public $thread_id = FALSE; public $warning_count = FALSE }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[12-Apr-2022 15:53:37 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[12-Apr-2022 15:53:37 UTC] PHP Stack trace:
+[12-Apr-2022 15:53:37 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[12-Apr-2022 15:53:37 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[12-Apr-2022 15:53:37 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[12-Apr-2022 15:53:37 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[12-Apr-2022 15:53:37 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[12-Apr-2022 15:53:37 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[12-Apr-2022 15:53:37 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[12-Apr-2022 15:53:37 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[12-Apr-2022 15:53:37 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[12-Apr-2022 15:53:37 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[12-Apr-2022 15:53:37 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[12-Apr-2022 15:53:37 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[12-Apr-2022 15:53:37 UTC] PHP Stack trace:
+[12-Apr-2022 15:53:37 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[12-Apr-2022 15:53:37 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[12-Apr-2022 15:53:37 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[12-Apr-2022 15:53:37 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[12-Apr-2022 15:53:37 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[12-Apr-2022 15:53:37 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[12-Apr-2022 15:53:37 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[12-Apr-2022 15:53:37 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[12-Apr-2022 15:53:37 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[12-Apr-2022 15:53:37 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[12-Apr-2022 15:53:37 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[12-Apr-2022 15:53:37 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[12-Apr-2022 15:53:37 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[12-Apr-2022 15:53:37 UTC] PHP Stack trace:
+[12-Apr-2022 15:53:37 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[12-Apr-2022 15:53:37 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[12-Apr-2022 15:53:37 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[12-Apr-2022 15:53:37 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[12-Apr-2022 15:53:37 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[12-Apr-2022 15:53:37 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[12-Apr-2022 15:53:37 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[12-Apr-2022 15:53:37 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[12-Apr-2022 15:53:37 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[12-Apr-2022 15:53:37 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[12-Apr-2022 15:53:37 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[12-Apr-2022 15:53:37 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[12-Apr-2022 15:53:37 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[12-Apr-2022 15:53:37 UTC] PHP Stack trace:
+[12-Apr-2022 15:53:37 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[12-Apr-2022 15:53:37 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[12-Apr-2022 15:53:37 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[12-Apr-2022 15:53:37 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[12-Apr-2022 15:53:37 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[12-Apr-2022 15:53:37 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[12-Apr-2022 15:53:37 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[12-Apr-2022 15:53:37 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[12-Apr-2022 15:53:37 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[12-Apr-2022 15:53:37 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[12-Apr-2022 15:53:37 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[12-Apr-2022 15:53:37 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[12-Apr-2022 15:53:37 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[12-Apr-2022 15:53:37 UTC] PHP Stack trace:
+[12-Apr-2022 15:53:37 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[12-Apr-2022 15:53:37 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[12-Apr-2022 15:53:37 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[12-Apr-2022 15:53:37 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[12-Apr-2022 15:53:37 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[12-Apr-2022 15:53:37 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[12-Apr-2022 15:53:37 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[12-Apr-2022 15:53:37 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[12-Apr-2022 15:53:37 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[12-Apr-2022 15:53:37 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[12-Apr-2022 15:53:37 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[12-Apr-2022 15:53:37 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[12-Apr-2022 15:53:37 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[12-Apr-2022 15:53:37 UTC] PHP Stack trace:
+[12-Apr-2022 15:53:37 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[12-Apr-2022 15:53:37 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[12-Apr-2022 15:53:37 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[12-Apr-2022 15:53:37 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[12-Apr-2022 15:53:37 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[12-Apr-2022 15:53:37 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[12-Apr-2022 15:53:37 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[12-Apr-2022 15:53:37 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[12-Apr-2022 15:53:37 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[12-Apr-2022 15:53:37 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[12-Apr-2022 15:53:37 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[12-Apr-2022 15:53:37 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[12-Apr-2022 15:53:37 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[12-Apr-2022 15:53:37 UTC] PHP Stack trace:
+[12-Apr-2022 15:53:37 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[12-Apr-2022 15:53:37 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[12-Apr-2022 15:53:37 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[12-Apr-2022 15:53:37 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[12-Apr-2022 15:53:37 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[12-Apr-2022 15:53:37 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[12-Apr-2022 15:53:37 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[12-Apr-2022 15:53:37 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[12-Apr-2022 15:53:37 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[12-Apr-2022 15:53:37 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[12-Apr-2022 15:53:37 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[12-Apr-2022 15:53:37 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[12-Apr-2022 15:53:37 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[12-Apr-2022 15:53:37 UTC] PHP Stack trace:
+[12-Apr-2022 15:53:37 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[12-Apr-2022 15:53:37 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[12-Apr-2022 15:53:37 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[12-Apr-2022 15:53:37 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[12-Apr-2022 15:53:37 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[12-Apr-2022 15:53:37 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[12-Apr-2022 15:53:37 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[12-Apr-2022 15:53:37 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[12-Apr-2022 15:53:37 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[12-Apr-2022 15:53:37 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[12-Apr-2022 15:53:37 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[12-Apr-2022 15:53:37 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[12-Apr-2022 15:53:37 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[12-Apr-2022 15:53:37 UTC] PHP Stack trace:
+[12-Apr-2022 15:53:37 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[12-Apr-2022 15:53:37 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[12-Apr-2022 15:53:37 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[12-Apr-2022 15:53:37 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[12-Apr-2022 15:53:37 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[12-Apr-2022 15:53:37 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[12-Apr-2022 15:53:37 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[12-Apr-2022 15:53:37 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[12-Apr-2022 15:53:37 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[12-Apr-2022 15:53:37 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[12-Apr-2022 15:53:37 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[12-Apr-2022 15:53:37 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[12-Apr-2022 15:53:37 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[12-Apr-2022 15:53:37 UTC] PHP Stack trace:
+[12-Apr-2022 15:53:37 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[12-Apr-2022 15:53:37 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[12-Apr-2022 15:53:37 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[12-Apr-2022 15:53:37 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[12-Apr-2022 15:53:37 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[12-Apr-2022 15:53:37 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[12-Apr-2022 15:53:37 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[12-Apr-2022 15:53:37 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[12-Apr-2022 15:53:37 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[12-Apr-2022 15:53:37 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[12-Apr-2022 15:53:37 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[12-Apr-2022 15:53:37 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[12-Apr-2022 15:53:37 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[12-Apr-2022 15:53:37 UTC] PHP Stack trace:
+[12-Apr-2022 15:53:37 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[12-Apr-2022 15:53:37 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[12-Apr-2022 15:53:37 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[12-Apr-2022 15:53:37 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[12-Apr-2022 15:53:37 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[12-Apr-2022 15:53:37 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[12-Apr-2022 15:53:37 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[12-Apr-2022 15:53:37 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[12-Apr-2022 15:53:37 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[12-Apr-2022 15:53:37 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[12-Apr-2022 15:53:37 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[12-Apr-2022 15:53:37 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[12-Apr-2022 15:53:37 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[12-Apr-2022 15:53:37 UTC] PHP Stack trace:
+[12-Apr-2022 15:53:37 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[12-Apr-2022 15:53:37 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[12-Apr-2022 15:53:37 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[12-Apr-2022 15:53:37 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[12-Apr-2022 15:53:37 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[12-Apr-2022 15:53:37 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[12-Apr-2022 15:53:37 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[12-Apr-2022 15:53:37 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[12-Apr-2022 15:53:37 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[12-Apr-2022 15:53:37 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[12-Apr-2022 15:53:37 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[12-Apr-2022 15:53:37 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[12-Apr-2022 15:53:37 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[12-Apr-2022 15:53:37 UTC] PHP Stack trace:
+[12-Apr-2022 15:53:37 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[12-Apr-2022 15:53:37 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[12-Apr-2022 15:53:37 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[12-Apr-2022 15:53:37 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[12-Apr-2022 15:53:37 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[12-Apr-2022 15:53:37 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[12-Apr-2022 15:53:37 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[12-Apr-2022 15:53:37 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[12-Apr-2022 15:53:37 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[12-Apr-2022 15:53:37 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[12-Apr-2022 15:53:37 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[12-Apr-2022 15:53:37 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[12-Apr-2022 15:53:37 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = FALSE; public $client_info = 'mysqlnd 7.4.1'; public $client_version = 70401; public $connect_errno = 2002; public $connect_error = 'No such file or directory'; public $errno = 2002; public $error = 'No such file or directory'; public $error_list = FALSE; public $field_count = FALSE; public $host_info = FALSE; public $info = FALSE; public $insert_id = FALSE; public $server_info = FALSE; public $server_version = FALSE; public $sqlstate = FALSE; public $protocol_version = FALSE; public $thread_id = FALSE; public $warning_count = FALSE }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[13-Apr-2022 13:24:58 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[13-Apr-2022 13:24:58 UTC] PHP Stack trace:
+[13-Apr-2022 13:24:58 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[13-Apr-2022 13:24:58 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[13-Apr-2022 13:24:58 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[13-Apr-2022 13:24:58 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[13-Apr-2022 13:24:58 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[13-Apr-2022 13:24:58 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[13-Apr-2022 13:24:58 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[13-Apr-2022 13:24:58 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[13-Apr-2022 13:24:58 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[13-Apr-2022 13:24:58 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[13-Apr-2022 13:24:58 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[13-Apr-2022 13:24:58 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[13-Apr-2022 13:24:58 UTC] PHP Stack trace:
+[13-Apr-2022 13:24:58 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[13-Apr-2022 13:24:58 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[13-Apr-2022 13:24:58 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[13-Apr-2022 13:24:58 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[13-Apr-2022 13:24:58 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[13-Apr-2022 13:24:58 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[13-Apr-2022 13:24:58 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[13-Apr-2022 13:24:58 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[13-Apr-2022 13:24:58 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[13-Apr-2022 13:24:58 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[13-Apr-2022 13:24:58 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[13-Apr-2022 13:24:58 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[13-Apr-2022 13:24:58 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[13-Apr-2022 13:24:58 UTC] PHP Stack trace:
+[13-Apr-2022 13:24:58 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[13-Apr-2022 13:24:58 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[13-Apr-2022 13:24:58 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[13-Apr-2022 13:24:58 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[13-Apr-2022 13:24:58 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[13-Apr-2022 13:24:58 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[13-Apr-2022 13:24:58 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[13-Apr-2022 13:24:58 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[13-Apr-2022 13:24:58 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[13-Apr-2022 13:24:58 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[13-Apr-2022 13:24:58 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[13-Apr-2022 13:24:58 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[13-Apr-2022 13:24:58 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[13-Apr-2022 13:24:58 UTC] PHP Stack trace:
+[13-Apr-2022 13:24:58 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[13-Apr-2022 13:24:58 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[13-Apr-2022 13:24:58 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[13-Apr-2022 13:24:58 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[13-Apr-2022 13:24:58 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[13-Apr-2022 13:24:58 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[13-Apr-2022 13:24:58 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[13-Apr-2022 13:24:58 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[13-Apr-2022 13:24:58 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[13-Apr-2022 13:24:58 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[13-Apr-2022 13:24:58 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[13-Apr-2022 13:24:58 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[13-Apr-2022 13:24:58 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[13-Apr-2022 13:24:58 UTC] PHP Stack trace:
+[13-Apr-2022 13:24:58 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[13-Apr-2022 13:24:58 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[13-Apr-2022 13:24:58 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[13-Apr-2022 13:24:58 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[13-Apr-2022 13:24:58 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[13-Apr-2022 13:24:58 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[13-Apr-2022 13:24:58 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[13-Apr-2022 13:24:58 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[13-Apr-2022 13:24:58 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[13-Apr-2022 13:24:58 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[13-Apr-2022 13:24:58 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[13-Apr-2022 13:24:58 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[13-Apr-2022 13:24:58 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[13-Apr-2022 13:24:58 UTC] PHP Stack trace:
+[13-Apr-2022 13:24:58 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[13-Apr-2022 13:24:58 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[13-Apr-2022 13:24:58 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[13-Apr-2022 13:24:58 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[13-Apr-2022 13:24:58 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[13-Apr-2022 13:24:58 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[13-Apr-2022 13:24:58 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[13-Apr-2022 13:24:58 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[13-Apr-2022 13:24:58 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[13-Apr-2022 13:24:58 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[13-Apr-2022 13:24:58 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[13-Apr-2022 13:24:58 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[13-Apr-2022 13:24:58 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[13-Apr-2022 13:24:58 UTC] PHP Stack trace:
+[13-Apr-2022 13:24:58 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[13-Apr-2022 13:24:58 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[13-Apr-2022 13:24:58 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[13-Apr-2022 13:24:58 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[13-Apr-2022 13:24:58 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[13-Apr-2022 13:24:58 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[13-Apr-2022 13:24:58 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[13-Apr-2022 13:24:58 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[13-Apr-2022 13:24:58 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[13-Apr-2022 13:24:58 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[13-Apr-2022 13:24:58 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[13-Apr-2022 13:24:58 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[13-Apr-2022 13:24:58 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[13-Apr-2022 13:24:58 UTC] PHP Stack trace:
+[13-Apr-2022 13:24:58 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[13-Apr-2022 13:24:58 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[13-Apr-2022 13:24:58 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[13-Apr-2022 13:24:58 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[13-Apr-2022 13:24:58 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[13-Apr-2022 13:24:58 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[13-Apr-2022 13:24:58 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[13-Apr-2022 13:24:58 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[13-Apr-2022 13:24:58 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[13-Apr-2022 13:24:58 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[13-Apr-2022 13:24:58 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[13-Apr-2022 13:24:58 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[13-Apr-2022 13:24:58 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[13-Apr-2022 13:24:58 UTC] PHP Stack trace:
+[13-Apr-2022 13:24:58 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[13-Apr-2022 13:24:58 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[13-Apr-2022 13:24:58 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[13-Apr-2022 13:24:58 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[13-Apr-2022 13:24:58 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[13-Apr-2022 13:24:58 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[13-Apr-2022 13:24:58 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[13-Apr-2022 13:24:58 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[13-Apr-2022 13:24:58 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[13-Apr-2022 13:24:58 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[13-Apr-2022 13:24:58 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[13-Apr-2022 13:24:58 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[13-Apr-2022 13:24:58 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[13-Apr-2022 13:24:58 UTC] PHP Stack trace:
+[13-Apr-2022 13:24:58 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[13-Apr-2022 13:24:58 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[13-Apr-2022 13:24:58 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[13-Apr-2022 13:24:58 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[13-Apr-2022 13:24:58 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[13-Apr-2022 13:24:58 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[13-Apr-2022 13:24:58 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[13-Apr-2022 13:24:58 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[13-Apr-2022 13:24:58 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[13-Apr-2022 13:24:58 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[13-Apr-2022 13:24:58 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[13-Apr-2022 13:24:58 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[13-Apr-2022 13:24:58 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[13-Apr-2022 13:24:58 UTC] PHP Stack trace:
+[13-Apr-2022 13:24:58 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[13-Apr-2022 13:24:58 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[13-Apr-2022 13:24:58 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[13-Apr-2022 13:24:58 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[13-Apr-2022 13:24:58 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[13-Apr-2022 13:24:58 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[13-Apr-2022 13:24:58 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[13-Apr-2022 13:24:58 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[13-Apr-2022 13:24:58 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[13-Apr-2022 13:24:58 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[13-Apr-2022 13:24:58 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[13-Apr-2022 13:24:58 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[13-Apr-2022 13:24:58 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[13-Apr-2022 13:24:58 UTC] PHP Stack trace:
+[13-Apr-2022 13:24:58 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[13-Apr-2022 13:24:58 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[13-Apr-2022 13:24:58 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[13-Apr-2022 13:24:58 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[13-Apr-2022 13:24:58 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[13-Apr-2022 13:24:58 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[13-Apr-2022 13:24:58 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[13-Apr-2022 13:24:58 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[13-Apr-2022 13:24:58 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[13-Apr-2022 13:24:58 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[13-Apr-2022 13:24:58 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[13-Apr-2022 13:24:58 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[13-Apr-2022 13:24:58 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[13-Apr-2022 13:24:58 UTC] PHP Stack trace:
+[13-Apr-2022 13:24:58 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[13-Apr-2022 13:24:58 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[13-Apr-2022 13:24:58 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[13-Apr-2022 13:24:58 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[13-Apr-2022 13:24:58 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[13-Apr-2022 13:24:58 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[13-Apr-2022 13:24:58 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[13-Apr-2022 13:24:58 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[13-Apr-2022 13:24:58 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[13-Apr-2022 13:24:58 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[13-Apr-2022 13:24:58 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[13-Apr-2022 13:24:58 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[13-Apr-2022 13:24:58 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = FALSE; public $client_info = 'mysqlnd 7.4.1'; public $client_version = 70401; public $connect_errno = 2002; public $connect_error = 'No such file or directory'; public $errno = 2002; public $error = 'No such file or directory'; public $error_list = FALSE; public $field_count = FALSE; public $host_info = FALSE; public $info = FALSE; public $insert_id = FALSE; public $server_info = FALSE; public $server_version = FALSE; public $sqlstate = FALSE; public $protocol_version = FALSE; public $thread_id = FALSE; public $warning_count = FALSE }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[13-Apr-2022 13:25:00 UTC] PHP Warning:  mysqli_real_connect(): (HY000/2002): No such file or directory in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[13-Apr-2022 13:25:00 UTC] PHP Stack trace:
+[13-Apr-2022 13:25:00 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[13-Apr-2022 13:25:00 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[13-Apr-2022 13:25:00 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[13-Apr-2022 13:25:00 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[13-Apr-2022 13:25:00 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[13-Apr-2022 13:25:00 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[13-Apr-2022 13:25:00 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[13-Apr-2022 13:25:00 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[13-Apr-2022 13:25:00 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[13-Apr-2022 13:25:00 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[13-Apr-2022 13:25:00 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[13-Apr-2022 13:25:00 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[13-Apr-2022 13:25:00 UTC] PHP Stack trace:
+[13-Apr-2022 13:25:00 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[13-Apr-2022 13:25:00 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[13-Apr-2022 13:25:00 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[13-Apr-2022 13:25:00 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[13-Apr-2022 13:25:00 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[13-Apr-2022 13:25:00 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[13-Apr-2022 13:25:00 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[13-Apr-2022 13:25:00 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[13-Apr-2022 13:25:00 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[13-Apr-2022 13:25:00 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[13-Apr-2022 13:25:00 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[13-Apr-2022 13:25:00 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[13-Apr-2022 13:25:00 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[13-Apr-2022 13:25:00 UTC] PHP Stack trace:
+[13-Apr-2022 13:25:00 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[13-Apr-2022 13:25:00 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[13-Apr-2022 13:25:00 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[13-Apr-2022 13:25:00 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[13-Apr-2022 13:25:00 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[13-Apr-2022 13:25:00 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[13-Apr-2022 13:25:00 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[13-Apr-2022 13:25:00 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[13-Apr-2022 13:25:00 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[13-Apr-2022 13:25:00 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[13-Apr-2022 13:25:00 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[13-Apr-2022 13:25:00 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[13-Apr-2022 13:25:00 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[13-Apr-2022 13:25:00 UTC] PHP Stack trace:
+[13-Apr-2022 13:25:00 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[13-Apr-2022 13:25:00 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[13-Apr-2022 13:25:00 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[13-Apr-2022 13:25:00 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[13-Apr-2022 13:25:00 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[13-Apr-2022 13:25:00 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[13-Apr-2022 13:25:00 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[13-Apr-2022 13:25:00 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[13-Apr-2022 13:25:00 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[13-Apr-2022 13:25:00 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[13-Apr-2022 13:25:00 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[13-Apr-2022 13:25:00 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[13-Apr-2022 13:25:00 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[13-Apr-2022 13:25:00 UTC] PHP Stack trace:
+[13-Apr-2022 13:25:00 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[13-Apr-2022 13:25:00 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[13-Apr-2022 13:25:00 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[13-Apr-2022 13:25:00 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[13-Apr-2022 13:25:00 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[13-Apr-2022 13:25:00 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[13-Apr-2022 13:25:00 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[13-Apr-2022 13:25:00 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[13-Apr-2022 13:25:00 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[13-Apr-2022 13:25:00 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[13-Apr-2022 13:25:00 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[13-Apr-2022 13:25:00 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[13-Apr-2022 13:25:00 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[13-Apr-2022 13:25:00 UTC] PHP Stack trace:
+[13-Apr-2022 13:25:00 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[13-Apr-2022 13:25:00 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[13-Apr-2022 13:25:00 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[13-Apr-2022 13:25:00 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[13-Apr-2022 13:25:00 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[13-Apr-2022 13:25:00 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[13-Apr-2022 13:25:00 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[13-Apr-2022 13:25:00 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[13-Apr-2022 13:25:00 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[13-Apr-2022 13:25:00 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[13-Apr-2022 13:25:00 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[13-Apr-2022 13:25:00 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[13-Apr-2022 13:25:00 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[13-Apr-2022 13:25:00 UTC] PHP Stack trace:
+[13-Apr-2022 13:25:00 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[13-Apr-2022 13:25:00 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[13-Apr-2022 13:25:00 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[13-Apr-2022 13:25:00 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[13-Apr-2022 13:25:00 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[13-Apr-2022 13:25:00 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[13-Apr-2022 13:25:00 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[13-Apr-2022 13:25:00 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[13-Apr-2022 13:25:00 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[13-Apr-2022 13:25:00 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[13-Apr-2022 13:25:00 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[13-Apr-2022 13:25:00 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[13-Apr-2022 13:25:00 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[13-Apr-2022 13:25:00 UTC] PHP Stack trace:
+[13-Apr-2022 13:25:00 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[13-Apr-2022 13:25:00 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[13-Apr-2022 13:25:00 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[13-Apr-2022 13:25:00 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[13-Apr-2022 13:25:00 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[13-Apr-2022 13:25:00 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[13-Apr-2022 13:25:00 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[13-Apr-2022 13:25:00 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[13-Apr-2022 13:25:00 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[13-Apr-2022 13:25:00 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[13-Apr-2022 13:25:00 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[13-Apr-2022 13:25:00 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[13-Apr-2022 13:25:00 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[13-Apr-2022 13:25:00 UTC] PHP Stack trace:
+[13-Apr-2022 13:25:00 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[13-Apr-2022 13:25:00 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[13-Apr-2022 13:25:00 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[13-Apr-2022 13:25:00 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[13-Apr-2022 13:25:00 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[13-Apr-2022 13:25:00 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[13-Apr-2022 13:25:00 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[13-Apr-2022 13:25:00 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[13-Apr-2022 13:25:00 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[13-Apr-2022 13:25:00 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[13-Apr-2022 13:25:00 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[13-Apr-2022 13:25:00 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[13-Apr-2022 13:25:00 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[13-Apr-2022 13:25:00 UTC] PHP Stack trace:
+[13-Apr-2022 13:25:00 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[13-Apr-2022 13:25:00 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[13-Apr-2022 13:25:00 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[13-Apr-2022 13:25:00 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[13-Apr-2022 13:25:00 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[13-Apr-2022 13:25:00 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[13-Apr-2022 13:25:00 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[13-Apr-2022 13:25:00 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[13-Apr-2022 13:25:00 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[13-Apr-2022 13:25:00 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[13-Apr-2022 13:25:00 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[13-Apr-2022 13:25:00 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[13-Apr-2022 13:25:00 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[13-Apr-2022 13:25:00 UTC] PHP Stack trace:
+[13-Apr-2022 13:25:00 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[13-Apr-2022 13:25:00 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[13-Apr-2022 13:25:00 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[13-Apr-2022 13:25:00 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[13-Apr-2022 13:25:00 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[13-Apr-2022 13:25:00 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[13-Apr-2022 13:25:00 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[13-Apr-2022 13:25:00 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[13-Apr-2022 13:25:00 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[13-Apr-2022 13:25:00 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[13-Apr-2022 13:25:00 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[13-Apr-2022 13:25:00 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[13-Apr-2022 13:25:00 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[13-Apr-2022 13:25:00 UTC] PHP Stack trace:
+[13-Apr-2022 13:25:00 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[13-Apr-2022 13:25:00 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[13-Apr-2022 13:25:00 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[13-Apr-2022 13:25:00 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[13-Apr-2022 13:25:00 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[13-Apr-2022 13:25:00 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[13-Apr-2022 13:25:00 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[13-Apr-2022 13:25:00 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[13-Apr-2022 13:25:00 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[13-Apr-2022 13:25:00 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[13-Apr-2022 13:25:00 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[13-Apr-2022 13:25:00 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[13-Apr-2022 13:25:00 UTC] PHP Warning:  mysqli_real_connect(): Property access is not allowed yet in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php on line 1753
+[13-Apr-2022 13:25:00 UTC] PHP Stack trace:
+[13-Apr-2022 13:25:00 UTC] PHP   1. {main}() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:0
+[13-Apr-2022 13:25:00 UTC] PHP   2. include() /opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar:4
+[13-Apr-2022 13:25:00 UTC] PHP   3. include() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/php/boot-phar.php:11
+[13-Apr-2022 13:25:00 UTC] PHP   4. WP_CLI\bootstrap() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/wp-cli.php:27
+[13-Apr-2022 13:25:00 UTC] PHP   5. WP_CLI\Bootstrap\LaunchRunner->process($state = class WP_CLI\Bootstrap\BootstrapState { private $state = ['context_manager' => class WP_CLI\ContextManager { ... }] }) phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/bootstrap.php:78
+[13-Apr-2022 13:25:00 UTC] PHP   6. WP_CLI\Runner->start() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Bootstrap/LaunchRunner.php:28
+[13-Apr-2022 13:25:00 UTC] PHP   7. WP_CLI\Runner->load_wordpress() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1235
+[13-Apr-2022 13:25:00 UTC] PHP   8. require() phar:///opt/Local/resources/extraResources/bin/wp-cli/wp-cli.phar/vendor/wp-cli/wp-cli/php/WP_CLI/Runner.php:1317
+[13-Apr-2022 13:25:00 UTC] PHP   9. require_wp_db() /home/cyril/Local Sites/studilaporte/app/public/wp-settings.php:124
+[13-Apr-2022 13:25:00 UTC] PHP  10. wpdb->__construct($dbuser = 'root', $dbpassword = 'root', $dbname = 'local', $dbhost = 'localhost') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/load.php:561
+[13-Apr-2022 13:25:00 UTC] PHP  11. wpdb->db_connect($allow_bail = *uninitialized*) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:724
+[13-Apr-2022 13:25:00 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = NULL; public $client_info = NULL; public $client_version = NULL; public $connect_errno = NULL; public $connect_error = NULL; public $errno = NULL; public $error = NULL; public $error_list = NULL; public $field_count = NULL; public $host_info = NULL; public $info = NULL; public $insert_id = NULL; public $server_info = NULL; public $server_version = NULL; public $sqlstate = NULL; public $protocol_version = NULL; public $thread_id = NULL; public $warning_count = NULL }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[13-Apr-2022 13:25:00 UTC] PHP  12. mysqli_real_connect($link = class mysqli { public $affected_rows = FALSE; public $client_info = 'mysqlnd 7.4.1'; public $client_version = 70401; public $connect_errno = 2002; public $connect_error = 'No such file or directory'; public $errno = 2002; public $error = 'No such file or directory'; public $error_list = FALSE; public $field_count = FALSE; public $host_info = FALSE; public $info = FALSE; public $insert_id = FALSE; public $server_info = FALSE; public $server_version = FALSE; public $sqlstate = FALSE; public $protocol_version = FALSE; public $thread_id = FALSE; public $warning_count = FALSE }, $host = 'localhost', $user = 'root', $password = 'root', $database = NULL, $port = NULL, $socket = NULL, $flags = 0) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/wp-db.php:1753
+[13-Apr-2022 13:34:42 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/class-wp-customize-nav-menus.php on line 523
+[13-Apr-2022 13:34:42 UTC] PHP Stack trace:
+[13-Apr-2022 13:34:42 UTC] PHP   1. {main}() /home/cyril/Local Sites/studilaporte/app/public/wp-admin/customize.php:0
+[13-Apr-2022 13:34:42 UTC] PHP   2. do_action($hook_name = 'customize_controls_enqueue_scripts') /home/cyril/Local Sites/studilaporte/app/public/wp-admin/customize.php:123
+[13-Apr-2022 13:34:42 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/plugin.php:474
+[13-Apr-2022 13:34:42 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/class-wp-hook.php:331
+[13-Apr-2022 13:34:42 UTC] PHP   5. WP_Customize_Nav_Menus->enqueue_scripts('') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/class-wp-hook.php:307
+[13-Apr-2022 13:34:43 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/class-wp-customize-nav-menus.php on line 1152
+[13-Apr-2022 13:34:43 UTC] PHP Stack trace:
+[13-Apr-2022 13:34:43 UTC] PHP   1. {main}() /home/cyril/Local Sites/studilaporte/app/public/wp-admin/customize.php:0
+[13-Apr-2022 13:34:43 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') /home/cyril/Local Sites/studilaporte/app/public/wp-admin/customize.php:292
+[13-Apr-2022 13:34:43 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/plugin.php:474
+[13-Apr-2022 13:34:43 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/class-wp-hook.php:331
+[13-Apr-2022 13:34:43 UTC] PHP   5. WP_Customize_Nav_Menus->available_items_template('') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/class-wp-hook.php:307
+[13-Apr-2022 13:36:28 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/class-wp-customize-nav-menus.php on line 523
+[13-Apr-2022 13:36:28 UTC] PHP Stack trace:
+[13-Apr-2022 13:36:28 UTC] PHP   1. {main}() /home/cyril/Local Sites/studilaporte/app/public/wp-admin/customize.php:0
+[13-Apr-2022 13:36:28 UTC] PHP   2. do_action($hook_name = 'customize_controls_enqueue_scripts') /home/cyril/Local Sites/studilaporte/app/public/wp-admin/customize.php:123
+[13-Apr-2022 13:36:28 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/plugin.php:474
+[13-Apr-2022 13:36:28 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/class-wp-hook.php:331
+[13-Apr-2022 13:36:28 UTC] PHP   5. WP_Customize_Nav_Menus->enqueue_scripts('') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/class-wp-hook.php:307
+[13-Apr-2022 13:36:28 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/class-wp-customize-nav-menus.php on line 1152
+[13-Apr-2022 13:36:28 UTC] PHP Stack trace:
+[13-Apr-2022 13:36:28 UTC] PHP   1. {main}() /home/cyril/Local Sites/studilaporte/app/public/wp-admin/customize.php:0
+[13-Apr-2022 13:36:28 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') /home/cyril/Local Sites/studilaporte/app/public/wp-admin/customize.php:292
+[13-Apr-2022 13:36:28 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/plugin.php:474
+[13-Apr-2022 13:36:28 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/class-wp-hook.php:331
+[13-Apr-2022 13:36:28 UTC] PHP   5. WP_Customize_Nav_Menus->available_items_template('') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/class-wp-hook.php:307
+[13-Apr-2022 13:37:18 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/class-wp-customize-nav-menus.php on line 523
+[13-Apr-2022 13:37:18 UTC] PHP Stack trace:
+[13-Apr-2022 13:37:18 UTC] PHP   1. {main}() /home/cyril/Local Sites/studilaporte/app/public/wp-admin/customize.php:0
+[13-Apr-2022 13:37:18 UTC] PHP   2. do_action($hook_name = 'customize_controls_enqueue_scripts') /home/cyril/Local Sites/studilaporte/app/public/wp-admin/customize.php:123
+[13-Apr-2022 13:37:18 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/plugin.php:474
+[13-Apr-2022 13:37:18 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/class-wp-hook.php:331
+[13-Apr-2022 13:37:18 UTC] PHP   5. WP_Customize_Nav_Menus->enqueue_scripts('') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/class-wp-hook.php:307
+[13-Apr-2022 13:37:18 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/class-wp-customize-nav-menus.php on line 1152
+[13-Apr-2022 13:37:18 UTC] PHP Stack trace:
+[13-Apr-2022 13:37:18 UTC] PHP   1. {main}() /home/cyril/Local Sites/studilaporte/app/public/wp-admin/customize.php:0
+[13-Apr-2022 13:37:18 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') /home/cyril/Local Sites/studilaporte/app/public/wp-admin/customize.php:292
+[13-Apr-2022 13:37:18 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/plugin.php:474
+[13-Apr-2022 13:37:18 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/class-wp-hook.php:331
+[13-Apr-2022 13:37:18 UTC] PHP   5. WP_Customize_Nav_Menus->available_items_template('') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/class-wp-hook.php:307
+[13-Apr-2022 14:45:02 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/class-wp-customize-nav-menus.php on line 523
+[13-Apr-2022 14:45:02 UTC] PHP Stack trace:
+[13-Apr-2022 14:45:02 UTC] PHP   1. {main}() /home/cyril/Local Sites/studilaporte/app/public/wp-admin/customize.php:0
+[13-Apr-2022 14:45:02 UTC] PHP   2. do_action($hook_name = 'customize_controls_enqueue_scripts') /home/cyril/Local Sites/studilaporte/app/public/wp-admin/customize.php:123
+[13-Apr-2022 14:45:02 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/plugin.php:474
+[13-Apr-2022 14:45:02 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/class-wp-hook.php:331
+[13-Apr-2022 14:45:02 UTC] PHP   5. WP_Customize_Nav_Menus->enqueue_scripts('') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/class-wp-hook.php:307
+[13-Apr-2022 14:45:02 UTC] PHP Notice:  Trying to get property 'title' of non-object in /home/cyril/Local Sites/studilaporte/app/public/wp-includes/class-wp-customize-nav-menus.php on line 1152
+[13-Apr-2022 14:45:02 UTC] PHP Stack trace:
+[13-Apr-2022 14:45:02 UTC] PHP   1. {main}() /home/cyril/Local Sites/studilaporte/app/public/wp-admin/customize.php:0
+[13-Apr-2022 14:45:02 UTC] PHP   2. do_action($hook_name = 'customize_controls_print_footer_scripts') /home/cyril/Local Sites/studilaporte/app/public/wp-admin/customize.php:292
+[13-Apr-2022 14:45:02 UTC] PHP   3. WP_Hook->do_action($args = [0 => '']) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/plugin.php:474
+[13-Apr-2022 14:45:02 UTC] PHP   4. WP_Hook->apply_filters($value = '', $args = [0 => '']) /home/cyril/Local Sites/studilaporte/app/public/wp-includes/class-wp-hook.php:331
+[13-Apr-2022 14:45:02 UTC] PHP   5. WP_Customize_Nav_Menus->available_items_template('') /home/cyril/Local Sites/studilaporte/app/public/wp-includes/class-wp-hook.php:307
