@@ -7,6 +7,7 @@ function create_custom_posttype()
         'label' => 'Courses',
         'description' => 'Grand Prix de Formule 1',
         'pubic' => true,
+        'show_ui' => true,
     ]);
 }
 

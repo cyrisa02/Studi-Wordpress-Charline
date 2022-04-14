@@ -15,6 +15,7 @@ du coup pour nous le préfixe est: studi_
 En local, ne pas indexer ce site, le faire qd on est en prod!
 
 regarder le fichier wp-config.php pour modifier les paramètres
+https://wpchannel.com/wordpress/tutoriels-wordpress/modifier-prefixe-base-donnees-wordpress-installation/
 
 changer define('WP_DEBUG', false); IMPORTANT
 define('WP_DEBUG', true); pour le développement
@@ -35,7 +36,19 @@ tpl-home.php , mettre les noms en anglais
 10/ Créer un groupe de champ -> ajouter ça permet de bine cadrer par feuille les champs que le client devra saisir 
 
 
-11/ Gestion des articles et des médias= Post-type 
+11/ Gestion des articles et des médias  +  pages = Post-type (entité wordpress)
+WP crée un id pour chaque post-type dans la BD 
+si on en crée d'autre on les appelle les custom Post-type (=composant standard qu'on retrouve d'une manière ou d'une autre sur plusieurs pages , comme les courses passées ou future du pilote de formule 1)
+On utilise le fichier functions.php 
+add_action est un hook (moment, fonction exécutée)--- init= temps 0
+
+une fois que c'est fait dans l'admin, j'ai crée dans le menu de gauche un nouveau composant que je peux appeler
+
+
+
+
+35'52
+
 
 
 
@@ -44,9 +57,9 @@ tpl-home.php , mettre les noms en anglais
 
 19/ mettre les fichiers en cache
 
-20/ replace and search pour modifier l'URL du site et modifier toutes les BD en conséquence (vidéo n3 de Charline) 
+20/ replace and search pour modifier l'URL du site et modifier toutes les BD en conséquence (vidéo n3 de Charline) liverun
 
-10'50
+
 
 
 
