@@ -2,12 +2,12 @@
 # This file is distributed under the same license as the WordPress - 5.9.x - Development package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2022-04-03 22:11:56+0000\n"
+"PO-Revision-Date: 2022-04-15 12:45:21+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=n > 1;\n"
-"X-Generator: GlotPress/3.0.0-rc.3\n"
+"X-Generator: GlotPress/3.0.0\n"
 "Language: fr\n"
 "Project-Id-Version: WordPress - 5.9.x - Development\n"
 
@@ -72,6 +72,46 @@ msgctxt "Open Sans font: on or off"
 msgid "on"
 msgstr "on"
 
+#. translators: Localized date and time format, see
+#. https://www.php.net/manual/datetime.format.php
+#. translators: Date/Time format, see
+#. https://www.php.net/manual/datetime.format.php
+#. translators: Links last updated date format, see
+#. https://www.php.net/manual/datetime.format.php
+#: wp-includes/class-wp-locale.php:367 wp-includes/script-loader.php:154
+#: wp-includes/script-loader.php:375 wp-admin/includes/schema.php:430
+#, gp-priority: high
+msgid "F j, Y g:i a"
+msgstr "d F Y G\\hi"
+
+#. translators: Localized date format, see
+#. https://www.php.net/manual/datetime.format.php
+#. translators: Date format, see https://www.php.net/manual/datetime.format.php
+#. translators: 1: Name of most recent post author, 2: Post edited date, 3:
+#. Post edited time.
+#. translators: 1: Post edited date, 2: Post edited time.
+#. translators: 1: Post creation date, 2: Post creation time.
+#. translators: Default date format, see
+#. https://www.php.net/manual/datetime.format.php
+#. translators: 1: Date, 2: Time.
+#: wp-includes/class-wp-locale.php:363 wp-includes/media.php:4016
+#: wp-includes/script-loader.php:153 wp-includes/script-loader.php:373
+#: wp-admin/admin.php:113 wp-admin/edit-form-advanced.php:627
+#: wp-admin/edit-form-advanced.php:630 wp-admin/includes/ajax-actions.php:1573
+#: wp-admin/includes/ajax-actions.php:2811
+#: wp-admin/includes/ajax-actions.php:2814
+#: wp-admin/includes/class-wp-application-passwords-list-table.php:71
+#: wp-admin/includes/class-wp-application-passwords-list-table.php:86
+#: wp-admin/includes/class-wp-application-passwords-list-table.php:226
+#: wp-admin/includes/class-wp-application-passwords-list-table.php:229
+#: wp-admin/includes/class-wp-privacy-policy-content.php:382
+#: wp-admin/includes/dashboard.php:656 wp-admin/includes/media.php:1703
+#: wp-admin/includes/schema.php:426 wp-admin/options-general.php:293
+#: wp-admin/options-general.php:319 wp-admin/update-core.php:1057
+#, gp-priority: high
+msgid "F j, Y"
+msgstr "j F Y"
+
 #. translators: 'rtl' or 'ltr'. This sets the text direction for WordPress.
 #: wp-includes/class-wp-locale.php:217 wp-includes/script-loader.php:275
 #: wp-includes/js/dist/i18n.js:1465
@@ -121,6 +161,162 @@ msgstr " "
 #, gp-priority: high
 msgid "number_format_decimal_point"
 msgstr ","
+
+#. translators: Weekday.
+#. translators: One-letter abbreviation of the weekday.
+#. translators: Three-letter abbreviation of the weekday.
+#: wp-includes/class-wp-locale.php:128 wp-includes/class-wp-locale.php:137
+#: wp-includes/class-wp-locale.php:146
+#, gp-priority: high
+msgid "Saturday"
+msgstr "samedi"
+
+#. translators: Weekday.
+#. translators: One-letter abbreviation of the weekday.
+#. translators: Three-letter abbreviation of the weekday.
+#: wp-includes/class-wp-locale.php:127 wp-includes/class-wp-locale.php:136
+#: wp-includes/class-wp-locale.php:145
+#, gp-priority: high
+msgid "Friday"
+msgstr "vendredi"
+
+#. translators: Weekday.
+#. translators: One-letter abbreviation of the weekday.
+#. translators: Three-letter abbreviation of the weekday.
+#: wp-includes/class-wp-locale.php:126 wp-includes/class-wp-locale.php:135
+#: wp-includes/class-wp-locale.php:144
+#, gp-priority: high
+msgid "Thursday"
+msgstr "jeudi"
+
+#. translators: Weekday.
+#. translators: One-letter abbreviation of the weekday.
+#. translators: Three-letter abbreviation of the weekday.
+#: wp-includes/class-wp-locale.php:125 wp-includes/class-wp-locale.php:134
+#: wp-includes/class-wp-locale.php:143
+#, gp-priority: high
+msgid "Wednesday"
+msgstr "mercredi"
+
+#. translators: Weekday.
+#. translators: One-letter abbreviation of the weekday.
+#. translators: Ttree-letter abbreviation of the weekday.
+#: wp-includes/class-wp-locale.php:124 wp-includes/class-wp-locale.php:133
+#: wp-includes/class-wp-locale.php:142
+#, gp-priority: high
+msgid "Tuesday"
+msgstr "mardi"
+
+#. translators: Weekday.
+#. translators: One-letter abbreviation of the weekday.
+#. translators: Three-letter abbreviation of the weekday.
+#: wp-includes/class-wp-locale.php:123 wp-includes/class-wp-locale.php:132
+#: wp-includes/class-wp-locale.php:141
+#, gp-priority: high
+msgid "Monday"
+msgstr "lundi"
+
+#. translators: Weekday.
+#: wp-includes/class-wp-locale.php:122 wp-includes/class-wp-locale.php:131
+#: wp-includes/class-wp-locale.php:140
+#, gp-priority: high
+msgid "Sunday"
+msgstr "dimanche"
+
+#. translators: Month name.
+#. translators: Three-letter abbreviation of the month.
+#: wp-includes/class-wp-locale.php:160 wp-includes/class-wp-locale.php:188
+#: wp-includes/js/dist/components.js:46842
+#, gp-priority: high
+msgid "December"
+msgstr "décembre"
+
+#. translators: Month name.
+#. translators: Three-letter abbreviation of the month.
+#: wp-includes/class-wp-locale.php:159 wp-includes/class-wp-locale.php:187
+#: wp-includes/js/dist/components.js:46840
+#, gp-priority: high
+msgid "November"
+msgstr "novembre"
+
+#. translators: Month name.
+#. translators: Three-letter abbreviation of the month.
+#: wp-includes/class-wp-locale.php:158 wp-includes/class-wp-locale.php:186
+#: wp-includes/js/dist/components.js:46838
+#, gp-priority: high
+msgid "October"
+msgstr "octobre"
+
+#. translators: Month name.
+#. translators: Three-letter abbreviation of the month.
+#: wp-includes/class-wp-locale.php:157 wp-includes/class-wp-locale.php:185
+#: wp-includes/js/dist/components.js:46836
+#, gp-priority: high
+msgid "September"
+msgstr "septembre"
+
+#. translators: Month name.
+#. translators: Three-letter abbreviation of the month.
+#: wp-includes/class-wp-locale.php:156 wp-includes/class-wp-locale.php:184
+#: wp-includes/js/dist/components.js:46834
+#, gp-priority: high
+msgid "August"
+msgstr "août"
+
+#. translators: Month name.
+#. translators: Three-letter abbreviation of the month.
+#: wp-includes/class-wp-locale.php:155 wp-includes/class-wp-locale.php:183
+#: wp-includes/js/dist/components.js:46832
+#, gp-priority: high
+msgid "July"
+msgstr "juillet"
+
+#. translators: Month name.
+#. translators: Three-letter abbreviation of the month.
+#: wp-includes/class-wp-locale.php:154 wp-includes/class-wp-locale.php:182
+#: wp-includes/js/dist/components.js:46830
+#, gp-priority: high
+msgid "June"
+msgstr "juin"
+
+#. translators: Month name.
+#. translators: Three-letter abbreviation of the month.
+#: wp-includes/class-wp-locale.php:153 wp-includes/class-wp-locale.php:181
+#: wp-includes/js/dist/components.js:46828
+#, gp-priority: high
+msgid "May"
+msgstr "mai"
+
+#. translators: Month name.
+#. translators: Three-letter abbreviation of the month.
+#: wp-includes/class-wp-locale.php:152 wp-includes/class-wp-locale.php:180
+#: wp-includes/js/dist/components.js:46826
+#, gp-priority: high
+msgid "April"
+msgstr "avril"
+
+#. translators: Month name.
+#. translators: Three-letter abbreviation of the month.
+#: wp-includes/class-wp-locale.php:151 wp-includes/class-wp-locale.php:179
+#: wp-includes/js/dist/components.js:46824
+#, gp-priority: high
+msgid "March"
+msgstr "mars"
+
+#. translators: Month name.
+#. translators: Three-letter abbreviation of the month.
+#: wp-includes/class-wp-locale.php:150 wp-includes/class-wp-locale.php:178
+#: wp-includes/js/dist/components.js:46822
+#, gp-priority: high
+msgid "February"
+msgstr "février"
+
+#. translators: Month name.
+#: wp-includes/class-wp-locale.php:149 wp-includes/class-wp-locale.php:177
+#: wp-includes/js/dist/components.js:46820
+#, gp-priority: high
+msgid "January"
+msgstr "janvier"
 
 #: wp-includes/category-template.php:161
 #: wp-includes/js/dist/block-editor.js:49140
@@ -13397,17 +13593,6 @@ msgstr "#%d (pas de titre)"
 msgid "JavaScript must be enabled to use this feature."
 msgstr "JavaScript doit être activé pour utiliser cette fonctionnalité."
 
-#. translators: Localized date and time format, see
-#. https://www.php.net/manual/datetime.format.php
-#. translators: Date/Time format, see
-#. https://www.php.net/manual/datetime.format.php
-#. translators: Links last updated date format, see
-#. https://www.php.net/manual/datetime.format.php
-#: wp-includes/class-wp-locale.php:367 wp-includes/script-loader.php:154
-#: wp-includes/script-loader.php:375 wp-admin/includes/schema.php:430
-msgid "F j, Y g:i a"
-msgstr "d F Y G\\hi"
-
 #. translators: Localized time format, see
 #. https://www.php.net/manual/datetime.format.php
 #. translators: Time format, see https://www.php.net/manual/datetime.format.php
@@ -13433,33 +13618,6 @@ msgstr "d F Y G\\hi"
 #: wp-admin/options-general.php:356
 msgid "g:i a"
 msgstr "G\\hi"
-
-#. translators: Localized date format, see
-#. https://www.php.net/manual/datetime.format.php
-#. translators: Date format, see https://www.php.net/manual/datetime.format.php
-#. translators: 1: Name of most recent post author, 2: Post edited date, 3:
-#. Post edited time.
-#. translators: 1: Post edited date, 2: Post edited time.
-#. translators: 1: Post creation date, 2: Post creation time.
-#. translators: Default date format, see
-#. https://www.php.net/manual/datetime.format.php
-#. translators: 1: Date, 2: Time.
-#: wp-includes/class-wp-locale.php:363 wp-includes/media.php:4016
-#: wp-includes/script-loader.php:153 wp-includes/script-loader.php:373
-#: wp-admin/admin.php:113 wp-admin/edit-form-advanced.php:627
-#: wp-admin/edit-form-advanced.php:630 wp-admin/includes/ajax-actions.php:1573
-#: wp-admin/includes/ajax-actions.php:2811
-#: wp-admin/includes/ajax-actions.php:2814
-#: wp-admin/includes/class-wp-application-passwords-list-table.php:71
-#: wp-admin/includes/class-wp-application-passwords-list-table.php:86
-#: wp-admin/includes/class-wp-application-passwords-list-table.php:226
-#: wp-admin/includes/class-wp-application-passwords-list-table.php:229
-#: wp-admin/includes/class-wp-privacy-policy-content.php:382
-#: wp-admin/includes/dashboard.php:656 wp-admin/includes/media.php:1703
-#: wp-admin/includes/schema.php:426 wp-admin/options-general.php:293
-#: wp-admin/options-general.php:319 wp-admin/update-core.php:1057
-msgid "F j, Y"
-msgstr "j F Y"
 
 #: wp-includes/class-wp-xmlrpc-server.php:546
 msgid "The URL to the admin area"
@@ -16751,143 +16909,6 @@ msgstr "lun"
 #: wp-includes/class-wp-locale.php:140
 msgid "Sun"
 msgstr "dim"
-
-#. translators: Weekday.
-#. translators: One-letter abbreviation of the weekday.
-#. translators: Three-letter abbreviation of the weekday.
-#: wp-includes/class-wp-locale.php:128 wp-includes/class-wp-locale.php:137
-#: wp-includes/class-wp-locale.php:146
-msgid "Saturday"
-msgstr "samedi"
-
-#. translators: Weekday.
-#. translators: One-letter abbreviation of the weekday.
-#. translators: Three-letter abbreviation of the weekday.
-#: wp-includes/class-wp-locale.php:127 wp-includes/class-wp-locale.php:136
-#: wp-includes/class-wp-locale.php:145
-msgid "Friday"
-msgstr "vendredi"
-
-#. translators: Weekday.
-#. translators: One-letter abbreviation of the weekday.
-#. translators: Three-letter abbreviation of the weekday.
-#: wp-includes/class-wp-locale.php:126 wp-includes/class-wp-locale.php:135
-#: wp-includes/class-wp-locale.php:144
-msgid "Thursday"
-msgstr "jeudi"
-
-#. translators: Weekday.
-#. translators: One-letter abbreviation of the weekday.
-#. translators: Three-letter abbreviation of the weekday.
-#: wp-includes/class-wp-locale.php:125 wp-includes/class-wp-locale.php:134
-#: wp-includes/class-wp-locale.php:143
-msgid "Wednesday"
-msgstr "mercredi"
-
-#. translators: Weekday.
-#. translators: One-letter abbreviation of the weekday.
-#. translators: Ttree-letter abbreviation of the weekday.
-#: wp-includes/class-wp-locale.php:124 wp-includes/class-wp-locale.php:133
-#: wp-includes/class-wp-locale.php:142
-msgid "Tuesday"
-msgstr "mardi"
-
-#. translators: Weekday.
-#. translators: One-letter abbreviation of the weekday.
-#. translators: Three-letter abbreviation of the weekday.
-#: wp-includes/class-wp-locale.php:123 wp-includes/class-wp-locale.php:132
-#: wp-includes/class-wp-locale.php:141
-msgid "Monday"
-msgstr "lundi"
-
-#. translators: Weekday.
-#: wp-includes/class-wp-locale.php:122 wp-includes/class-wp-locale.php:131
-#: wp-includes/class-wp-locale.php:140
-msgid "Sunday"
-msgstr "dimanche"
-
-#. translators: Month name.
-#. translators: Three-letter abbreviation of the month.
-#: wp-includes/class-wp-locale.php:160 wp-includes/class-wp-locale.php:188
-#: wp-includes/js/dist/components.js:46842
-msgid "December"
-msgstr "décembre"
-
-#. translators: Month name.
-#. translators: Three-letter abbreviation of the month.
-#: wp-includes/class-wp-locale.php:159 wp-includes/class-wp-locale.php:187
-#: wp-includes/js/dist/components.js:46840
-msgid "November"
-msgstr "novembre"
-
-#. translators: Month name.
-#. translators: Three-letter abbreviation of the month.
-#: wp-includes/class-wp-locale.php:158 wp-includes/class-wp-locale.php:186
-#: wp-includes/js/dist/components.js:46838
-msgid "October"
-msgstr "octobre"
-
-#. translators: Month name.
-#. translators: Three-letter abbreviation of the month.
-#: wp-includes/class-wp-locale.php:157 wp-includes/class-wp-locale.php:185
-#: wp-includes/js/dist/components.js:46836
-msgid "September"
-msgstr "septembre"
-
-#. translators: Month name.
-#. translators: Three-letter abbreviation of the month.
-#: wp-includes/class-wp-locale.php:156 wp-includes/class-wp-locale.php:184
-#: wp-includes/js/dist/components.js:46834
-msgid "August"
-msgstr "août"
-
-#. translators: Month name.
-#. translators: Three-letter abbreviation of the month.
-#: wp-includes/class-wp-locale.php:155 wp-includes/class-wp-locale.php:183
-#: wp-includes/js/dist/components.js:46832
-msgid "July"
-msgstr "juillet"
-
-#. translators: Month name.
-#. translators: Three-letter abbreviation of the month.
-#: wp-includes/class-wp-locale.php:154 wp-includes/class-wp-locale.php:182
-#: wp-includes/js/dist/components.js:46830
-msgid "June"
-msgstr "juin"
-
-#. translators: Month name.
-#. translators: Three-letter abbreviation of the month.
-#: wp-includes/class-wp-locale.php:153 wp-includes/class-wp-locale.php:181
-#: wp-includes/js/dist/components.js:46828
-msgid "May"
-msgstr "mai"
-
-#. translators: Month name.
-#. translators: Three-letter abbreviation of the month.
-#: wp-includes/class-wp-locale.php:152 wp-includes/class-wp-locale.php:180
-#: wp-includes/js/dist/components.js:46826
-msgid "April"
-msgstr "avril"
-
-#. translators: Month name.
-#. translators: Three-letter abbreviation of the month.
-#: wp-includes/class-wp-locale.php:151 wp-includes/class-wp-locale.php:179
-#: wp-includes/js/dist/components.js:46824
-msgid "March"
-msgstr "mars"
-
-#. translators: Month name.
-#. translators: Three-letter abbreviation of the month.
-#: wp-includes/class-wp-locale.php:150 wp-includes/class-wp-locale.php:178
-#: wp-includes/js/dist/components.js:46822
-msgid "February"
-msgstr "février"
-
-#. translators: Month name.
-#: wp-includes/class-wp-locale.php:149 wp-includes/class-wp-locale.php:177
-#: wp-includes/js/dist/components.js:46820
-msgid "January"
-msgstr "janvier"
 
 #: wp-includes/class-wp-http-curl.php:243
 #: wp-includes/class-wp-http-curl.php:292 wp-includes/class-wp-http.php:1041

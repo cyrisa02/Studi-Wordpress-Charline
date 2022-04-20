@@ -38,16 +38,30 @@ tpl-home.php , mettre les noms en anglais
 
 11/ Gestion des articles et des médias  +  pages = Post-type (entité wordpress)
 WP crée un id pour chaque post-type dans la BD 
-si on en crée d'autre on les appelle les custom Post-type (=composant standard qu'on retrouve d'une manière ou d'une autre sur plusieurs pages , comme les courses passées ou future du pilote de formule 1)
+si on en crée d'autre on les appelle les C ustom Post-type (=composant standard qu'on retrouve d'une manière ou d'une autre sur plusieurs pages , comme les courses passées ou future du pilote de formule 1)
 On utilise le fichier functions.php 
 add_action est un hook (moment, fonction exécutée)--- init= temps 0
 
 une fois que c'est fait dans l'admin, j'ai crée dans le menu de gauche un nouveau composant que je peux appeler
 
+12/ live 4 Taxonomie = catégoriser, organiser  les articles , mettre des tags dans les articles 
+on a en cliquant sur l'engranage un menu avec Catégories à droite 
+on peut hiérarchiser les Catégories parents/enfants (important pour le SEO)
+on peut modifier les paramètres des catégories dans Articles/Catégories 
+
+13/ Taxonomie et Custom Post Type 
+-> register_taxonomy 
+pour le nom mettre un repère tax_nomdelacatégoriecréée 
+une fois la fonction js créée dans functions.php
+je peux aller dans l'admin , courses et paramétrer les catégories Championnats puis Année 2021 , Année 2022 etc...
+  
 
 
 
-35'52
+
+
+
+
 
 
 
