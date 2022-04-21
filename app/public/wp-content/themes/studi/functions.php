@@ -38,3 +38,62 @@ function create_taxonomy_races()
 }
 
 add_action('init', 'create_taxonomy_races');
+
+/*
+Exemple Portfolio
+*/
+
+function create_custom_posttype_project()
+{
+    register_post_type(
+        'project',
+        [
+            'label' => 'Projets POrtfolio',
+            'public' => true,
+        ]
+    );
+}
+
+add_action('init', 'create_custom_posttype_project');
+
+function create_taxo_project()
+{
+    register_taxonomy(
+        'tax_project_type',
+        'project',
+        [
+            'hierarchical' => true,
+            'labels' => [
+                'name' => 'Types',
+                'singular_name' => 'Type',
+            ],
+        ],
+    );
+
+    register_taxonomy(
+        'tax_project_clients',
+        'project',
+        [
+            'hierarchical' => true,
+            'labels' => [
+                'name' => 'Clients',
+                'singular_name' => 'Client',
+            ],
+        ]
+    );
+}
+
+add_action('init', 'create_taxo_project');
+
+function load_styles()
+{
+    wp_enqueue_style(
+        'main',
+       get_template_directory_uri().'/css/style.css',
+       [],
+       '',
+       false
+    );
+}
+
+add_action('wp_enqueue_scripts', 'load_styles');

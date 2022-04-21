@@ -28,7 +28,7 @@ POur créer un nouveau thème:
 4/ nous on a mis une image screenshot.png 
 5/ Créer la page d'accueil 
 Apprence/personnaliser/reglage de la page d'accueil  -> page statique -> selectionner 
-6/ on peut modifier le fichier index.php avec  <?php the_title() ?>
+6/ on peut modifier le fichier index.php avec  <?php the_title() ?>, c'est le modèle par défaut ou alors on crée des tpl-qqchose.php 
 7/ on veut créer des pages différentes donc on fait appel au template
 tpl-home.php , mettre les noms en anglais 
 8/ une fois le fichier template créé, on peut dans l'administrateur aller sur la page et sur Modèle/Modèle par défaut choisir Modèle page d'accueil (ne pas oublier)
@@ -49,12 +49,59 @@ on a en cliquant sur l'engranage un menu avec Catégories à droite
 on peut hiérarchiser les Catégories parents/enfants (important pour le SEO)
 on peut modifier les paramètres des catégories dans Articles/Catégories 
 
-13/ Taxonomie et Custom Post Type 
+13/ Taxonomie et Custom Post Type (notion de chronologie derrière)
 -> register_taxonomy 
 pour le nom mettre un repère tax_nomdelacatégoriecréée 
 une fois la fonction js créée dans functions.php
 je peux aller dans l'admin , courses et paramétrer les catégories Championnats puis Année 2021 , Année 2022 etc...
-  
+
+14/ Header et footer live 5
+créer un fichier avec le nom exact du slug du post type concerné chez nous,
+single-project.php 
+des fois y a des bugs avec les permaliens faire une modif sur les permaliens et enregistrer ça remetà jour 
+
+single-post -> c''est pour les articles parce que post =articles par défaut!!!
+
+hiérarchie de WP 
+
+https://developer.wordpress.org/files/2014/10/Screenshot-2019-01-23-00.20.04.png
+
+avec ACF je peux créer un groupe de champs -Projet
+puis intitulé Image / Nom image
+Emplacement Type de publication est égal Projets Portfolio  puis publier!!!! 
+
+créer un groupe champs avec ACF "Taxo client" -> avec deux champs: logo + site internet et dans 
+Projets postfolio / clients j'ai les champs site + internet 
+
+on peut créer un header.php et footer.php +
+modifier le tplp-home.php avec <?php get_header() ?> et <?php get_footer() ?>  
+puis faire la même chose pour toute les pages (contact, index etc...) et sur les custom post type <=> single-qqchose.php 
+
+Pour le CSS 
+dans le fichier header.php 
+saisir <?php wp_head(); ?>
+
+dans le fichier function.php 
+https://developer.wordpress.org/reference/functions/wp_enqueue_style/
+
+Live6 
+ACF 
+on peut ordonner, prioritiser les champs ACF 
+on peut modifier le "Nom du champ", mettre un nom court car c'est un slug qu'on va utiliser plus tard dans le code 
+type field Types: regarder la doc car c'est très riche 
+https://www.advancedcustomfields.com/resources/#field-types/
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

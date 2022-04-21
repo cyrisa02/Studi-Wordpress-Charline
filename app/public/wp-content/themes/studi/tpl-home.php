@@ -2,6 +2,8 @@
 /* Template Name: Modèle page d'accueil */
 ?>
 
+<?php get_header() ?>
+
 <h1>
     <?php the_title(); ?>
 </h1>
@@ -12,3 +14,5 @@
 
 <a href="http://localhost:10013/page-a/"> Page A</a>
 </nav>
+
+<?php get_footer() ?> 
