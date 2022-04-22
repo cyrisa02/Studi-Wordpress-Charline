@@ -21,6 +21,12 @@ changer define('WP_DEBUG', false); IMPORTANT
 define('WP_DEBUG', true); pour le développement
 NE PAS OUBLIER DE REMETTRE à false en Production
 
+Mais si tu lveux avoir la même configuration que moi, voici mes réponses :
+• pour le nom de la base de données : il faut la changer d'abord dans phpMyAdmin, puis indiquer son nouveau nom dans le fichier wp-config.
+• pour le préfixe des tables, c'est plus complexe cela demande plusieurs manipulations, voici un article qui les liste : https://wpchannel.com/wordpress/tutoriels-wordpress/modifier-prefixe-base-donnees-wordpress-installation/
+
+En fait ce fichier wp-config est juste un fichier qui fait le lien entre "ta machine" et "la machine worpdress", ce que tu écris à l'intérieur ne pourra pas modifier ta base de données ou tes tables c'est à toi de la faire directement depuis ton gestionnaire de base de données.
+
 POur créer un nouveau thème:
 1/effacer les thèmes standard dans wp-content/themes
 2/ créer un nouveau répertoire avec le nom du thème ici-> studi 
@@ -85,11 +91,43 @@ dans le fichier function.php
 https://developer.wordpress.org/reference/functions/wp_enqueue_style/
 
 Live6 
-ACF 
+ACF // Groupe champ -Menu // Couleur de mon header 
 on peut ordonner, prioritiser les champs ACF 
 on peut modifier le "Nom du champ", mettre un nom court car c'est un slug qu'on va utiliser plus tard dans le code 
 type field Types: regarder la doc car c'est très riche 
 https://www.advancedcustomfields.com/resources/#field-types/
+requis= obligatoire 
+rouge: Rouge 
+clé: Valeur comme json 
+code: client 
+
+Format dans le modèle: 
+
+ACF // Groupe champ -Projet 
+créer des grupes de champs (images / introduction)
+aller dans single-project.php 
+dans le admin de l'image mettre le "format dans le modèle" à "URL de l'image"
+
+Live7
+dasn single-project.php 
+à chaque fois que je crée un champ dans le backoffice il faut appeler dans single-project 
+faire des var_dump avec get_field 
+ici je veux pouvoir proposer au client d'afficher ou non un bouton de retour accueil 
+
+Création de champs pour la page accueil
+ne pas oublier emplacement / Modèle de page égal Modèle Page accueil 
++ cliquer sur Editeur de contenu (ça efface le guntenberg qui ne sert à rien)
+ne pas oublier de modifier le tpl-home.php avec 
+faire des vardump des focntions
+pour les texte area penser au foramtages (Nouvelles lignes) des paragraphes dans ACF attention au div ou p (par exemple conflit avec br dans nvlles lignes)
+
+
+
+
+
+
+
+
 
 
 

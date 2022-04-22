@@ -1,3 +1,15 @@
 body {
   background-color: aqua;
 }
+
+
+.image {
+  opacity: 0.5;
+
+}
+
+.intro {
+  text-decoration: underline;
+  color: brown;
+
+}
