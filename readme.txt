@@ -121,6 +121,19 @@ ne pas oublier de modifier le tpl-home.php avec
 faire des vardump des focntions
 pour les texte area penser au foramtages (Nouvelles lignes) des paragraphes dans ACF attention au div ou p (par exemple conflit avec br dans nvlles lignes)
 
+Live 8
+Les links, les posts, Select 
+pour les liens: voir valeur affichées dans le template -> tableau (mieux pour rendre dynamique le code) ou URL voir tpl-home.php 
+
+on peut regrouper sous un onglet plusieurs champs:
+créer un champ "Couverture" type "onglet" puis "A propos" on enregistre et on déplace dans ACF 
+
+pour les posts: projets comme onglet 
+Type de champ : relation + firltrer par type de publication : projets portfolio 
+sur tpl-home.php 
+Format dans le modèle: Objet Publication comme un tableau avec var_dump sion ID de la publication que je peux récupérer grâce au var_dump 
+
+
 
 
 
