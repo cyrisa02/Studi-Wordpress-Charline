@@ -133,6 +133,37 @@ Type de champ : relation + firltrer par type de publication : projets portfolio
 sur tpl-home.php 
 Format dans le modèle: Objet Publication comme un tableau avec var_dump sion ID de la publication que je peux récupérer grâce au var_dump 
 
+Live 9 Filtrer et afficher des custom post-type 
+créer un fichier tpl-projects
+dans le backoffice mettre modèle de page projets
+aller sur ACF 
+Groupe de champs - Pages Projets
+Modèle de pages égale modèle de page projets
+
+on utilise la fonction get_posts comme c'est un tableau utiliser voir les var_dump 
+project vient de functions.php et on le reprend dans tpl-projects
+on classe par date et par desc (du plus récent au plus vieux)
+on peut trier par title -> post_title (vient du array)
+get_posts ne renvoie pas les brouillons  
+meta_key + value c''est par rapport à ACF et state / Etat 
+
+Live 10
+page d'option -> pour afficher partout les reseaux sociaux
+acf_add_options_page version pro
+
+
+créer une pages info générales dans le backoffice 
+créer le fichier tpl-empty 
+modifier le ficheir footer dans lequel il y a les reseaux sociaux 
+
+extension à installer
+wp rocket pour vider le cache
+custom order post 
+safe svg 
+
+
+
+
 
 
 
