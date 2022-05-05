@@ -3561,3 +3561,16 @@
 ::1 - - [28/Apr/2022:16:17:47 +0200] "POST /wp-admin/admin-ajax.php HTTP/1.1" 200 47
 ::1 - - [28/Apr/2022:16:17:52 +0200] "GET /wp-login.php?action=logout&_wpnonce=efb81fc0f6 HTTP/1.1" 302 -
 ::1 - - [28/Apr/2022:16:17:52 +0200] "GET /wp-login.php?loggedout=true&wp_lang=fr_FR HTTP/1.1" 200 8890
+127.0.0.1 - - [05/May/2022:16:13:39 +0200] "POST /wp-cron.php?doing_wp_cron=1651760019.1534719467163085937500 HTTP/1.1" 200 -
+127.0.0.1 - - [05/May/2022:16:13:38 +0200] "GET / HTTP/1.1" 200 24423
+127.0.0.1 - - [05/May/2022:16:13:39 +0200] "GET /wp-includes/css/dist/block-library/style.min.css?ver=5.9.3 HTTP/1.1" 200 83419
+127.0.0.1 - - [05/May/2022:16:13:39 +0200] "GET /wp-content/themes/studi/css/style.css?ver=5.9.3 HTTP/1.1" 200 136
+127.0.0.1 - - [05/May/2022:16:13:39 +0200] "GET /wp-content/uploads/2022/04/IMG_1792-e1650704337420.jpg HTTP/1.1" 200 37546
+127.0.0.1 - - [05/May/2022:16:13:39 +0200] "GET /wp-includes/js/wp-emoji-release.min.js?ver=5.9.3 HTTP/1.1" 200 18181
+127.0.0.1 - - [05/May/2022:16:13:39 +0200] "GET /wp-content/uploads/2022/04/IMG_1808-e1650619868985.jpg HTTP/1.1" 200 36133
+127.0.0.1 - - [05/May/2022:16:13:39 +0200] "GET /wp-content/uploads/2022/04/screenshot.png HTTP/1.1" 200 3783
+127.0.0.1 - - [05/May/2022:16:13:39 +0200] "GET /wp-content/uploads/2022/04/cropped-screenshot-192x192.png HTTP/1.1" 200 11105
+127.0.0.1 - - [05/May/2022:16:13:39 +0200] "GET /wp-content/uploads/2022/04/cropped-screenshot-32x32.png HTTP/1.1" 200 1432
+127.0.0.1 - - [05/May/2022:16:13:39 +0200] "\x16\x03\x01" 400 226
+127.0.0.1 - - [05/May/2022:16:13:39 +0200] "\x16\x03\x01" 400 226
+127.0.0.1 - - [05/May/2022:16:13:52 +0200] "POST /wp-cron.php HTTP/1.1" 200 -
