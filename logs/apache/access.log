@@ -3557,3 +3557,7 @@
 ::1 - - [28/Apr/2022:16:10:58 +0200] "POST /wp-admin/admin-ajax.php HTTP/1.1" 200 47
 ::1 - - [28/Apr/2022:16:12:59 +0200] "POST /wp-admin/admin-ajax.php HTTP/1.1" 200 47
 ::1 - - [28/Apr/2022:16:15:00 +0200] "POST /wp-admin/admin-ajax.php HTTP/1.1" 200 47
+::1 - - [28/Apr/2022:16:17:01 +0200] "POST /wp-admin/admin-ajax.php HTTP/1.1" 200 47
+::1 - - [28/Apr/2022:16:17:47 +0200] "POST /wp-admin/admin-ajax.php HTTP/1.1" 200 47
+::1 - - [28/Apr/2022:16:17:52 +0200] "GET /wp-login.php?action=logout&_wpnonce=efb81fc0f6 HTTP/1.1" 302 -
+::1 - - [28/Apr/2022:16:17:52 +0200] "GET /wp-login.php?loggedout=true&wp_lang=fr_FR HTTP/1.1" 200 8890

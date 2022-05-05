@@ -93,3 +93,4 @@ AH00558: httpd: Could not reliably determine the server's fully qualified domain
 AH00558: httpd: Could not reliably determine the server's fully qualified domain name, using 127.0.1.1. Set the 'ServerName' directive globally to suppress this message
 [Thu Apr 28 14:54:29.852662 2022] [mpm_event:notice] [pid 19054:tid 140565395152192] AH00489: Apache/2.4.43 (Unix) configured -- resuming normal operations
 [Thu Apr 28 14:54:29.852887 2022] [core:notice] [pid 19054:tid 140565395152192] AH00094: Command line: '/home/cyril/.config/Local/lightning-services/apache-2.4.43+6/bin/linux/bin/httpd -D FOREGROUND -f /home/cyril/.config/Local/run/6_51g0115/conf/apache/apache2.conf'
+[Thu Apr 28 16:18:53.325954 2022] [mpm_event:notice] [pid 19054:tid 140565395152192] AH00491: caught SIGTERM, shutting down
